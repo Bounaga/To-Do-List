@@ -1,0 +1,79 @@
+body
+{
+    font-size: 20px;
+
+    /* Location of the image */
+    background-image: url('background.jpg');
+
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when 
+    the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+    on the container's size */
+    background-size: cover;
+    }
+
+
+#head
+{
+    padding-top: 2%;
+}
+
+h4
+{
+    padding-top: 2%;
+}
+
+/* input */
+.mb-3
+{
+    padding-top: 10%;
+}
+
+
+#input
+{
+    border-color: black;
+}
+
+#input:focus
+{
+    border-color: rgb(43, 169, 219);
+    box-shadow: inset 0 1px 1px rgb(43, 169, 219), 0 0 8px rgb(43, 169, 219);
+}
+
+
+
+
+#enter
+{
+    border-color: black;
+    color: black;
+}
+
+#enter:hover
+{
+    background-color: rgb(43, 169, 219);
+    border-color: black;
+}
+#enter:focus
+{
+    border-color: rgb(43, 169, 219);
+    box-shadow: inset 0 1px 1px rgb(43, 169, 219), 0 0 8px rgb(43, 169, 219);
+}
+
+
+#ul 
+{
+    padding-top: 5%;
+    padding-left: 20%;
+}
+
+
